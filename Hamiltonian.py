@@ -101,7 +101,7 @@ class HamiltonianExplicitRule(optimizer.UpdateRule):
 class Hamiltonian(optimizer.GradientMethod):
     def __init__(
         self, epsilon=_default_hyperparam.epsilon, delta=_default_hyperparam.delta, approx=_default_hyperparam.approx):
-        super(Hamiltonian, self).__init__():
+        super(Hamiltonian, self).__init__()
         self.hyperparam.epsilon = epsilon
         self.hyperparam.delta = delta
         self.hyperparam.approx = approx
